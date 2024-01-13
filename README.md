@@ -137,3 +137,5 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len){
 Результатом работы стало звено в Simulink, отвечающее на сигнал с кнопки, подключенной к микроконтроллеру. Также данные о состоянии звена передаются на микроконтроллер.
 
 ![Pasted image 20240113182232](https://github.com/JV4K/Embedded-systems-LB2/assets/65915049/df0cb194-ae0b-478c-ab44-d181ecb62f50)
+
+[Видео с демонстрацией](https://drive.google.com/file/d/1sjTdtu9nMbFM1tPGHMToLFWWme2I0hzE/view?usp=sharing)
