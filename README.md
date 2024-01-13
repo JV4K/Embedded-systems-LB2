@@ -139,3 +139,18 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len){
 ![Pasted image 20240113182232](https://github.com/JV4K/Embedded-systems-LB2/assets/65915049/df0cb194-ae0b-478c-ab44-d181ecb62f50)
 
 [Видео с демонстрацией](https://drive.google.com/file/d/1sjTdtu9nMbFM1tPGHMToLFWWme2I0hzE/view?usp=sharing)
+
+### Как пользоваться
+В репозитории находятся:
+- Проект STM32 Cube, разработанный для МК f103c8t6
+- Модель Simulink
+
+Чтобы повторить проект нужно:
+1. Подключить к микроконтроллеру кнопку в разрыв PC14 и GND
+2. Прошить проект в МК
+3. Подключить МК к компьютеру по USB
+4. Проверить, какой COM порт занимает STM32
+5. Открыть модель в simulink и в блоках Serial установить используемый COM порт
+6. Запустить симуляцию, дождаться подключения
+
+В случае ошибок в Matlab переподключить USB кабель.
